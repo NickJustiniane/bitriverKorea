@@ -267,6 +267,60 @@ var dotsClickedFunctions = function () {
 
 }
 
+var toggleIn = function () {
+    
+    console.log("toggleIn");
+
+    var $block = $("#usa-block");
+
+    $("#usa-toggle").click(function () {
+        $block.toggleClass("show");
+
+        console.log($("#team-toggle").css("background-color"));
+        
+    });
+
+
+    var $block1 = $("#switzerland-block");
+
+    $("#switzerland-toggle").click(function () {
+        $block1.toggleClass("show");
+
+        console.log($("#team-toggle").css("background-color"));
+        
+    });
+
+
+    
+    var $block2 = $("#italy-block");
+
+    $("#italy-toggle").click(function () {
+        $block2.toggleClass("show");
+
+        console.log($("#team-toggle").css("background-color"));
+        
+    });
+
+
+
+    var $block3 = $("#philippines-block");
+
+    $("#philippines-toggle").click(function () {
+        $block3.toggleClass("show");
+
+        console.log($("#team-toggle").css("background-color"));
+        
+    });
+
+}
+
+
+
+
+
+
+
+
 
 window.showAllOffices = showAllOffices;
 window.hideAllOffices = hideAllOffices;
@@ -274,7 +328,10 @@ window.showDataCenters = showDataCenters;
 window.showOffices = showOffices;
 
 
+/* DOCUMENT READY */
+
 dotsClickedFunctions();
+toggleIn();
 
 
 })(window);
