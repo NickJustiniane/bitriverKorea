@@ -30,152 +30,154 @@
  <!-- <link rel="stylesheet" href="http://stage.bitriverkorea.com/css/style.css"> -->
  <link rel="stylesheet" href="css/style.css">
 
-<style>
-    * {box-sizing: border-box}
-    .mySlides {display: none}
-    img {vertical-align: middle;}
-    
-    /* Slideshow container */
-    .slideshow-container {
+ <style>
+  <style>
+  * {box-sizing: border-box}
+  .mySlides {display: none}
+  img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    display: none;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .slide {
       max-width: 100%;
-      position: relative;
-      margin: auto;
-    }
-    
-    /* Next & previous buttons */
-    .prev, .next {
-      cursor: pointer;
-      position: absolute;
-      top: 50%;
-      width: auto;
-      padding: 16px;
-      margin-top: -22px;
-      color: white;
-      font-weight: bold;
-      font-size: 18px;
-      transition: 0.6s ease;
-      border-radius: 0 3px 3px 0;
-      user-select: none;
-    }
-    
-    /* Position the "next button" to the right */
-    .next {
-      right: 0;
-      border-radius: 3px 0 0 3px;
-    }
-    
-    /* On hover, add a black background color with a little bit see-through */
-    .prev:hover, .next:hover {
-      background-color: rgba(0,0,0,0.8);
-    }
-    
-    /* Caption text */
-    .text {
-      color: #f2f2f2;
-      font-size: 15px;
-      padding: 8px 12px;
-      position: absolute;
-      bottom: 8px;
+      max-height: 100%;
+      /* float: left; */
       width: 100%;
-      text-align: center;
+      height: 820px;
     }
-    
-    /* Number text (1/3 etc) */
-    .numbertext {
-      color: #f2f2f2;
-      font-size: 12px;
-      padding: 8px 12px;
-      position: absolute;
-      top: 0;
-      display: none;
+  
+    #slide-0 {
+      background-image: url('bitriver_introbg.jpg');
+      background-repeat: no-repeat;
+      background-position: -200px 0px;
+      background-size: cover;
     }
-    
-    /* The dots/bullets/indicators */
-    .dot {
-      cursor: pointer;
-      height: 15px;
-      width: 15px;
-      margin: 0 2px;
-      background-color: #fff;
-      border-radius: 50%;
-      display: inline-block;
-      transition: background-color 0.6s ease;
+  
+    #slide-1 {
+      background-image: url('bitriver_introbg.jpg');
+      background-repeat: no-repeat;
+      background-position: -400px 0px;
+      background-size: cover;
     }
-    
-    .active, .dot:hover {
-      background-color: #717171;
+  
+    #slide-2 {
+      background-image: url('bitriver_introbg.jpg');
+      background-repeat: no-repeat;
+      background-position: -600px 0px;
+      background-size: cover;
     }
-    
-    .slide {
-        max-width: 100%;
-        max-height: 100%;
-        /* float: left; */
-        width: 100%;
-        height: 800px;
+  
+  
+    .dot-slide {
+        position: absolute;
+        top: 750px;
+        left: 155px;
+    }
+  
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  } 
+  
+  @media only screen and (max-width: 600px) {
+      body {
+        margin: 0px !important;
+        /* background-color: transparent !important; */
       }
-    
-      #slide-0 {
-        background-image: url('bitriver_introbg.jpg');
-        background-repeat: no-repeat;
-        background-position: -200px 0px;
-        background-size: cover;
-      }
-    
-      #slide-1 {
-        background-image: url('bitriver_introbg.jpg');
-        background-repeat: no-repeat;
-        background-position: -400px 0px;
-        background-size: cover;
-      }
-    
-      #slide-2 {
-        background-image: url('bitriver_introbg.jpg');
-        background-repeat: no-repeat;
-        background-position: -600px 0px;
-        background-size: cover;
-      }
-    
-    
-      .dot-slide {
-          position: absolute;
-          top: 750px;
-          left: 155px;
-      }
-    
-    
-    /* Fading animation */
-    .fade {
-      -webkit-animation-name: fade;
-      -webkit-animation-duration: 1.5s;
-      animation-name: fade;
-      animation-duration: 1.5s;
-    }
-    
-    @-webkit-keyframes fade {
-      from {opacity: .4} 
-      to {opacity: 1}
-    }
-    
-    @keyframes fade {
-      from {opacity: .4} 
-      to {opacity: 1}
-    }
-    
-    
-    @media only screen and (max-width: 300px) {
-      .prev, .next,.text {font-size: 11px}
-    } 
-    
-    @media only screen and (max-width: 600px) {
-        body {
-          margin: 0px !important;
-          /* background-color: transparent !important; */
-        }
 
 
-    }
-    
-    </style>
+  }
+  
+  </style>
+
 
 </head>
 <body>
@@ -294,7 +296,7 @@
     </section>
 
 
-    
+<!-- /* HEADER */ -->
 <section class="bg-dark bg-hero text-light overflow-hidden masthead-mobile">
   
   <div class="slideshow-container">
@@ -366,18 +368,19 @@
           </div>
         </nav>
 
-
         <div class="container pb-7 h-100 text-center text-md-left center">
           <div class="d-flex h-100 align-items-center">
             <div class="row w-100" data-aos="fade-up">
-              <div class="col-md-12" style="margin-top: 600px !important;">
+  
+              <div class="col-md-12" style="margin-top: 460px !important;">
                 
-                <h1 class="mb-5 text-white font-weight-bold center1" style="text-align: center; margin-bottom: 20px; font-size: 50px;">
-                  Largest hosting provider for <br />mining in the CIS
-                </h1>
-                <p class="header-text">
-                  Check our offices and data centers near you by navigating on the map
-                </p>
+                <h1 class="mb-5 text-white font-weight-bold center1 mb-title" 
+                style="text-align: center; margin-bottom: 15px !important; font-size: 50px;">
+                Largest hosting <br />provider for mining <br />in the CIS
+              </h1>
+              <p class="header-text mb-subtitle">
+                Check our offices and data centers near you by navigating on the map
+              </p>
     
                 <div class="radio-center">
                   <input type="radio" class="radio-input" name="office-selection" value="Data Center" onclick="return showDataCenters()"> 
@@ -406,10 +409,9 @@
     
               <div class="col-md-4"></div>
               
-              <div>
+            </div>
           </div>
         </div>
-        
 
       </div>
     </div>
@@ -483,7 +485,7 @@
 
       </div>
     </div>
-    
+
     <div class="mySlides">
       <div class="numbertext">3 / 3</div>
       <div class="slide" id="slide-2">
@@ -555,8 +557,8 @@
     </div>
     
     
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
     
     <div class="dot-slide" style="text-align:center">
         <span class="dot" onclick="currentSlide(1)"></span> 
@@ -570,11 +572,18 @@
 </section>
 
 
-<div class="dot-desktop">
+<!-- DOT DESKTOP -->
 
     <div class="usa-button" id="usa-btn">
       <img src="images/Countries/Group 80.png" alt="" />
     </div>
+    
+    <div id="usa" class="hidden-usa">
+      <img src="images/Countries2/Group 217@2x.png" alt="" />
+    </div>
+
+
+    <div class="dot-desktop">
   
     <div class="switzerland-button" id="switzerland-btn">
       <img src="images/Countries/Group 80.png" alt="" />
@@ -623,9 +632,6 @@
   
   
   
-    <div id="usa" class="hidden-usa">
-      <img src="images/Countries2/Group 217@2x.png" alt="" />
-    </div>
     
     <div id="switcherland" class="hidden-switcherland">
       <img src="images/Countries2/Group 218@2x.png" alt="" />
@@ -673,7 +679,7 @@
   
   </div>
   
-  
+  <!-- END OF DOT DESKTOP -->
   
   
     <section class="pt-6 pb-2 bg-white">

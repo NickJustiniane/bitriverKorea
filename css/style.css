@@ -12083,7 +12083,11 @@ a.fancy-dark:hover {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
+    /* background-size: 100% 100%; */
+
+    /* background-position: 100px 0px; */
     background-size: 100% 100%;
+    position: relative;
   }
 
   .masthead1 {
@@ -12443,8 +12447,6 @@ label {
 .uae-button:hover {
     cursor: pointer;
 }
-
-
 
 .hidden-usa {
     display: none;
@@ -12918,12 +12920,144 @@ label {
 }
 
 
-  
-  /* On smaller screens, decrease text size */
-  @media only screen and (max-width: 300px) {
-    .prev, .next,.text {font-size: 11px}
-  }
 
+
+/* Header */
+
+/* * {box-sizing: border-box}
+    .mySlides {display: none}
+    
+    .slideshow-container {
+      max-width: 100%;
+      position: relative;
+      margin: auto;
+    }
+    
+    .prev, .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -22px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+    }
+    
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    .prev:hover, .next:hover {
+      background-color: rgba(0,0,0,0.8);
+    }
+    
+    .text {
+      color: #f2f2f2;
+      font-size: 15px;
+      padding: 8px 12px;
+      position: absolute;
+      bottom: 8px;
+      width: 100%;
+      text-align: center;
+    }
+    
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+      display: none;
+    }
+    
+    .dot {
+      cursor: pointer;
+      height: 15px;
+      width: 15px;
+      margin: 0 2px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    
+    .active, .dot:hover {
+      background-color: #717171;
+    }
+    
+    .slide {
+        max-width: 100%;
+        max-height: 100%;
+        width: 100%;
+        height: 820px;
+      }
+    
+      #slide-0 {
+        background-image: url('bitriver_introbg.jpg');
+        background-repeat: no-repeat;
+        background-position: -200px 0px;
+        background-size: cover;
+      }
+    
+      #slide-1 {
+        background-image: url('bitriver_introbg.jpg');
+        background-repeat: no-repeat;
+        background-position: -400px 0px;
+        background-size: cover;
+      }
+    
+      #slide-2 {
+        background-image: url('bitriver_introbg.jpg');
+        background-repeat: no-repeat;
+        background-position: -600px 0px;
+        background-size: cover;
+      }
+    
+    
+      .dot-slide {
+          position: absolute;
+          top: 760px;
+          left: 155px;
+
+          float: left;
+          z-index: 1000;
+      }
+      
+    .fade {
+      -webkit-animation-name: fade;
+      -webkit-animation-duration: 1.5s;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    
+    @-webkit-keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    @keyframes fade {
+      from {opacity: .4} 
+      to {opacity: 1}
+    }
+    
+    
+    @media only screen and (max-width: 300px) {
+      .prev, .next,.text {font-size: 11px}
+    } 
+    
+    @media only screen and (max-width: 600px) {
+        body {
+          margin: 0px !important;
+        }
+    } */
+
+/* End of Header */
 
 
 
@@ -12941,129 +13075,37 @@ label {
     .masthead-mobile {
         display: block;
     }
-}
 
-/*     
-.slideshow-container {
-    max-width: 100%;
-    position: relative;
-    margin: auto;
-  }
-  
-  
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
-  
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-    display: none;
-  }
-  
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  .slide {
-      max-width: 100%;
-      max-height: 100%;
-      width: 100%;
-      height: 800px;
+    .mb-title {
+        font-size: 28px !important;
     }
-  
-    #slide-0 {
-      background-image: url('../images/bitriver_introbg.jpg');
-      background-repeat: no-repeat;
-      background-position: -200px 0px;
-      background-size: cover;
+
+    .mb-subtitle {
+        font-size: 16px !important;
+        margin-bottom: 5px !important;
     }
-  
-    #slide-1 {
-      background-image: url('../images/bitriver_introbg.jpg');
-      background-repeat: no-repeat;
-      background-position: -400px 0px;
-      background-size: cover;
-    }
-  
-    #slide-2 {
-      background-image: url('../images/bitriver_introbg.jpg');
-      background-repeat: no-repeat;
-      background-position: -600px 0px;
-      background-size: cover;
-    }
-  
-  
-    .dot-slide {
-        position: relative;
-        top: -52px;
+
+    .radio-center {
+        margin-top: 30px !important;
     }
     
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @-webkit-keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
-  
-  @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-  }
- */
+    /* MOBILE DOT */
 
+    .usa-button {
+        position: absolute;
+        top: 35%;
+        left: 41%;
+    }
 
+    .hidden-usa {
+        display: none;
+        position: absolute;
+        top: 31%;
+        left: 45%;
+    }
+}
 
+/* END OF MOBILE */
 
 
 
