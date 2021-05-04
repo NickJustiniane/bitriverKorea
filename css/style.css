@@ -12057,6 +12057,21 @@ a.fancy-dark:hover {
     cursor: pointer;
 }
 
+.hideoffices {
+        border: 2px solid white;
+        text-align: center !important;
+        width: 200px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 70px;
+    display: none;
+}
+
+
+.hideoffices:hover {
+    cursor: pointer;
+}
+
 .text-blue {
     color: #1680C1 !important;
 }
@@ -12515,21 +12530,6 @@ label {
     left:83.5%;
 }
 
-
-.hideoffices {
-    display: none;
-    border: 2px solid white;
-    text-align: center !important;
-    width: 200px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-left: 70px;
-}
-
-.hideoffices:hover {
-    cursor: pointer;
-}
-
 .stickynav {
     position: fixed;
     width: 100% !important;
@@ -12912,6 +12912,201 @@ label {
     font-size: 20px;
     font-weight: bold;
 }
+
+.masthead-mobile {
+    display: none;
+}
+
+
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+
+
+
+/* MOBILE */
+
+@media only screen and (max-width: 600px) {
+    .masthead {
+        display: none;
+    }
+
+    .dot-desktop {
+        display: none;
+    }
+
+    .masthead-mobile {
+        display: block;
+    }
+}
+
+/*     
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    display: none;
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .slide {
+      max-width: 100%;
+      max-height: 100%;
+      width: 100%;
+      height: 800px;
+    }
+  
+    #slide-0 {
+      background-image: url('../images/bitriver_introbg.jpg');
+      background-repeat: no-repeat;
+      background-position: -200px 0px;
+      background-size: cover;
+    }
+  
+    #slide-1 {
+      background-image: url('../images/bitriver_introbg.jpg');
+      background-repeat: no-repeat;
+      background-position: -400px 0px;
+      background-size: cover;
+    }
+  
+    #slide-2 {
+      background-image: url('../images/bitriver_introbg.jpg');
+      background-repeat: no-repeat;
+      background-position: -600px 0px;
+      background-size: cover;
+    }
+  
+  
+    .dot-slide {
+        position: relative;
+        top: -52px;
+    }
+    
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

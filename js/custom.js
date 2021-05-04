@@ -44,12 +44,15 @@ var showAllOffices = function () {
     $("#philippines").css("display", "block");
 
     $("#uae").css("display", "block");
-
-    
     
 
-    $(".showoffices").css("display", "none");
-    $(".hideoffices").css("display", "block");
+    if ($(".showoffices").css("display") == "block")
+    {
+        $(".hideoffices").css("display", "none");
+    }
+    else if ($(".showoffices").css("display") == "none") {
+        $(".hideoffices").css("display", "block");
+    }
 
 }
 
@@ -68,9 +71,9 @@ var hideAllOffices = function () {
     $("#philippines").css("display", "none");
     $("#uae").css("display", "none");
     
-
-    $(".hideoffices").css("display", "none");
+   
     $(".showoffices").css("display", "block");
+    $(".hideoffices").css("display", "none");
 
 }
 
@@ -101,6 +104,7 @@ var showDataCenters = function () {
 
     $(".showoffices").css("display", "none");
     $(".hideoffices").css("display", "block");
+    
 
 }
 
@@ -315,8 +319,36 @@ var toggleIn = function () {
 }
 
 
+var showSlides = function () {
 
+var slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+}
 
 
 
@@ -332,6 +364,6 @@ window.showOffices = showOffices;
 
 dotsClickedFunctions();
 toggleIn();
-
+// showSlides();
 
 })(window);
