@@ -150,7 +150,11 @@ var showOffices = function () {
 
 var dotsClickedFunctions = function () {
 
+    console.log($("#usa"));
+
     $("#usa-btn").click(function () {
+
+        console.log("usa");
 
         if ($("#usa").css("display") == "none")
             $("#usa").css("display", "block");
@@ -159,13 +163,37 @@ var dotsClickedFunctions = function () {
 
     });
 
+    $("#usa-mobile-btn").click(function () {
+
+        console.log("usa");
+
+        if ($("#usa-mobile").css("display") == "none")
+            $("#usa-mobile").css("display", "block");
+        else if ($("#usa-mobile").css("display") == "block")
+            $("#usa-mobile").css("display", "none");
+
+    });
+    
 
     $("#switzerland-btn").click(function () {
+
+        console.log("switzerland");
 
         if ($("#switcherland").css("display") == "none")
             $("#switcherland").css("display", "block");
         else if ($("#switcherland").css("display") == "block")
             $("#switcherland").css("display", "none");
+
+    });
+
+    $("#switzerland-mb-btn").click(function () {
+
+        console.log("switzerland");
+
+        if ($("#switcherland-mb").css("display") == "none")
+            $("#switcherland-mb").css("display", "block");
+        else if ($("#switcherland-mb").css("display") == "block")
+            $("#switcherland-mb").css("display", "none");
 
     });
 
@@ -179,6 +207,34 @@ var dotsClickedFunctions = function () {
 
     });
 
+    $("#italy-mb-btn").click(function () {
+
+        if ($("#italy-mb").css("display") == "none")
+            $("#italy-mb").css("display", "block");
+        else if ($("#italy-mb").css("display") == "block")
+            $("#italy-mb").css("display", "none");
+
+    });
+
+    
+    $("#uae-btn").click(function () {
+
+        if ($("#uae").css("display") == "none")
+            $("#uae").css("display", "block");
+        else if ($("#uae").css("display") == "block")
+            $("#uae").css("display", "none");
+
+    });
+
+
+    $("#uae-mb-btn").click(function () {
+
+        if ($("#uae-mb").css("display") == "none")
+            $("#uae-mb").css("display", "block");
+        else if ($("#uae-mb").css("display") == "block")
+            $("#uae-mb").css("display", "none");
+
+    });
 
     $("#norilsk-btn").click(function () {
 
@@ -258,17 +314,7 @@ var dotsClickedFunctions = function () {
             $("#philippines").css("display", "none");
 
     });
-
-    $("#uae-btn").click(function () {
-
-        if ($("#uae").css("display") == "none")
-            $("#uae").css("display", "block");
-        else if ($("#uae").css("display") == "block")
-            $("#uae").css("display", "none");
-
-    });
-
-
+    
 }
 
 var toggleIn = function () {

@@ -12357,6 +12357,15 @@ label {
     cursor: pointer;
 }
 
+.uae-button {
+    position: absolute;
+    top:44%;
+    left:62%;
+}
+
+.uae-button:hover {
+    cursor: pointer;
+}
 
 .norilsk-button {
     position: absolute;
@@ -12435,16 +12444,6 @@ label {
 }
 
 .philippines-button:hover {
-    cursor: pointer;
-}
-
-.uae-button {
-    position: absolute;
-    top:44%;
-    left:62%;
-}
-
-.uae-button:hover {
     cursor: pointer;
 }
 
@@ -12887,6 +12886,7 @@ label {
          -moz-transition: opacity .5s-in;
            -o-transition: opacity .5s  ease-in;
   }
+
   #philippines-block.show {
     display:block;
     opacity:1;
@@ -12919,6 +12919,13 @@ label {
     display: none;
 }
 
+.dot-mobile {
+    display: none;
+}
+
+.dot-desktop {
+    display: block;
+}
 
 
 
@@ -13098,11 +13105,55 @@ label {
     }
 
     .hidden-usa {
-        display: none;
         position: absolute;
         top: 31%;
         left: 45%;
     }
+    
+    .switzerland-button {
+        position: absolute;
+        top:26%;
+        left:30%
+    }
+    
+    .italy-button {
+        position: absolute;
+        top:31%;
+        left:35%
+    }
+    
+    .uae-button {
+        position: absolute;
+        top:44%;
+        left:70%;
+    }
+
+    .hidden-switcherland {
+        position: absolute;
+        top:27.4%;
+        left:6%
+    }
+    
+    .hidden-italy {
+        position: absolute;
+        top:32.3%;
+        left:38%
+    }
+    
+    .hidden-uae {
+        position: absolute;
+        top:45.2%;
+        left:75%;
+    }
+
+    .dot-mobile {
+        display: block;
+    }
+    
+    .norilsk-btn {
+        
+    }
+
 }
 
 /* END OF MOBILE */
