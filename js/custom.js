@@ -245,6 +245,15 @@ var dotsClickedFunctions = function () {
 
     });
 
+    $("#norilsk-mb-btn").click(function () {
+
+        if ($("#norilsk-mb").css("display") == "none")
+            $("#norilsk-mb").css("display", "block");
+        else if ($("#norilsk-mb").css("display") == "block")
+            $("#norilsk-mb").css("display", "none");
+
+    });
+
 
     $("#russia1-btn").click(function () {
 
@@ -254,6 +263,16 @@ var dotsClickedFunctions = function () {
             $("#russia1").css("display", "none");
 
     });
+
+    $("#russia1-mb-btn").click(function () {
+
+        if ($("#russia1-mb").css("display") == "none")
+            $("#russia1-mb").css("display", "block");
+        else if ($("#russia1-mb").css("display") == "block")
+            $("#russia1-mb").css("display", "none");
+
+    });
+
 
 
     $("#russia2-btn").click(function () {
@@ -265,6 +284,15 @@ var dotsClickedFunctions = function () {
 
     });
 
+    $("#russia2-mb-btn").click(function () {
+
+        if ($("#russia2-mb").css("display") == "none")
+            $("#russia2-mb").css("display", "block");
+        else if ($("#russia2-mb").css("display") == "block")
+            $("#russia2-mb").css("display", "none");
+
+    });
+
 
     $("#russia3-btn").click(function () {
 
@@ -272,6 +300,15 @@ var dotsClickedFunctions = function () {
             $("#russia3").css("display", "block");
         else if ($("#russia3").css("display") == "block")
             $("#russia3").css("display", "none");
+
+    });
+
+    $("#russia3-mb-btn").click(function () {
+
+        if ($("#russia3-mb").css("display") == "none")
+            $("#russia3-mb").css("display", "block");
+        else if ($("#russia3-mb").css("display") == "block")
+            $("#russia3-mb").css("display", "none");
 
     });
 
@@ -286,12 +323,31 @@ var dotsClickedFunctions = function () {
     });
 
 
+    $("#china-mb-btn").click(function () {
+
+        if ($("#china-mb").css("display") == "none")
+            $("#china-mb").css("display", "block");
+        else if ($("#china-mb").css("display") == "block")
+            $("#china-mb").css("display", "none");
+
+    });
+
+
     $("#korea-btn").click(function () {
 
         if ($("#korea").css("display") == "none")
             $("#korea").css("display", "block");
         else if ($("#korea").css("display") == "block")
             $("#korea").css("display", "none");
+
+    });
+
+    $("#korea-mb-btn").click(function () {
+
+        if ($("#korea-mb").css("display") == "none")
+            $("#korea-mb").css("display", "block");
+        else if ($("#korea-mb").css("display") == "block")
+            $("#korea-mb").css("display", "none");
 
     });
 
@@ -305,6 +361,15 @@ var dotsClickedFunctions = function () {
 
     });
 
+    $("#japan-mb-btn").click(function () {
+
+        if ($("#japan-mb").css("display") == "none")
+            $("#japan-mb").css("display", "block");
+        else if ($("#japan-mb").css("display") == "block")
+            $("#japan-mb").css("display", "none");
+
+    });
+
 
     $("#philippines-btn").click(function () {
 
@@ -312,6 +377,15 @@ var dotsClickedFunctions = function () {
             $("#philippines").css("display", "block");
         else if ($("#philippines").css("display") == "block")
             $("#philippines").css("display", "none");
+
+    });
+
+    $("#philippines-mb-btn").click(function () {
+
+        if ($("#philippines-mb").css("display") == "none")
+            $("#philippines-mb").css("display", "block");
+        else if ($("#philippines-mb").css("display") == "block")
+            $("#philippines-mb").css("display", "none");
 
     });
     
@@ -410,6 +484,8 @@ window.showOffices = showOffices;
 
 dotsClickedFunctions();
 toggleIn();
-// showSlides();
+
+showAllOffices();
+
 
 })(window);
