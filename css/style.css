@@ -12023,6 +12023,7 @@ a.fancy-dark:hover {
 .center1 {
     text-align: center !important;
     font-size: 50px !important;
+    margin-bottom: 20px;
 }
 
 .header-text {
@@ -12033,10 +12034,10 @@ a.fancy-dark:hover {
 }
 
 .radio-center {
-    margin-top: 15px;
     text-align: center !important;
     color: white !important;
     margin-top: 45px !important;
+    padding-bottom: 15px;
 }
 
 .radio-name {
@@ -12065,6 +12066,7 @@ a.fancy-dark:hover {
         padding-top: 10px;
         padding-bottom: 10px;
         margin-left: 70px;
+        
 }
 
 
@@ -12083,9 +12085,6 @@ a.fancy-dark:hover {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-    /* background-size: 100% 100%; */
-
-    /* background-position: 100px 0px; */
     background-size: 100% 100%;
     position: relative;
   }
@@ -12228,6 +12227,8 @@ a.fancy-dark:hover {
   .footer-bg {
       padding-top: 100px;
     background-image: url('../images/Footer.jpg') !important;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     height: 280px;
   }
 
@@ -12281,7 +12282,7 @@ a.fancy-dark:hover {
 
   .caption-title3 {
     color: black;
-    font-size: 30px;
+    font-size: 44px;
     font-weight: bold;
     text-align: left;
     font-weight: 600;
@@ -12290,8 +12291,8 @@ a.fancy-dark:hover {
 
   .contact-text {
     color: black;
-    font-size: 15px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 36px;
     text-align: left;
   }
 
@@ -12935,6 +12936,30 @@ label {
     display: none;
 }
 
+.frame-mb-landscape {
+    display: none;
+}
+
+.copyright {
+    display: block;
+}
+
+.copyright-h {
+    display: none;;
+}
+
+.desktop-sp {
+    padding-top: 40px !important;
+}
+
+.margin-top {
+    margin-top: 600px !important;
+}
+
+.sale-mb-landscape {
+    display: none;
+}
+
 /* MOBILE */
 
 @media only screen and (max-width: 600px) {
@@ -12968,7 +12993,9 @@ label {
         margin-top: 30px !important;
     }
 
-
+    .footer-bg {
+        background-size: cover;
+    }
 
     
     /* MOBILE DOT */
@@ -13193,16 +13220,355 @@ label {
     .copyright-mb {
         display: none;
     }
+  
     
-    .copyright-h {
-        height: 120px;
+    .copyright {
+        display: none;
     }
+    
+
+    .copyright-h {
+        background-color: #161E2C;
+        height: 90px;
+        color: white;
+        font-size: 15px;
+        display: block;
+      }
+    
 
     .email-box {
         margin-bottom: 150px;
     }
 
+    .phone-mb {
+        margin-bottom: 40px !important;
+        padding: 0px !important;
+        text-align: center;
+        margin: auto;
+        width: 80% !important;
+    }
 
+    .sale-mb {
+        margin-bottom: 10px;
+    }
+
+    .column-mb {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .column1-box {
+        margin: auto;
+    }
+
+    .column2-box {
+        margin: auto;
+    }
+
+    .column3-box {
+        margin: auto;
+    }
+
+    .about-col1 {
+        margin-bottom: 50px;
+    }
+
+    .team-mb img {
+        width: 70%;
+    }
+
+    .team-mb {
+        padding-bottom: 60px;
+    }
+
+    .team-para p {
+        text-align: justify;
+    }
+
+    .teams-section {
+        padding-bottom: 60px !important;
+    }
+
+ 
+
+}
+
+/* @media only screen and (max-width: 600px) { */
+/* Landscape */
+@media only screen 
+and (max-width: 850px) 
+and (orientation:landscape) 
+{
+
+    /* .masthead {
+        color: #fff;
+        background-image: url("../images/bitriver_introbg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: 100% 100%;
+        position: relative;
+      } */
+
+      .masthead { 
+        display: block !important;
+        background-size: 100% 400px;
+        
+      }
+      
+
+      .mb-title {
+          font-size: 16px !important;
+          margin-bottom: 10px !important;
+      }
+
+      .mb-subtitle {
+          font-size: 12px !important;
+          margin-bottom: 5px !important;
+      }
+
+      .showoffices {
+        display: none !important;
+      }
+
+      .hideoffices {
+        display: none !important;
+        /* width: 120px !important;
+        border: 1px solid white;
+        font-size: 10px;
+        height: 30px !important;
+        padding-top: 5px !important;
+        margin-left: 30px !important; */
+      }
+
+      .margin-top {
+        margin-top: 520px !important;
+
+      }
+
+      .bg-hero {
+          min-height: 400px;
+      }
+
+      .radio-center {
+          margin-top: 0px !important;
+          padding-bottom: 0px;
+          margin-bottom: 0px;
+      }
+
+      .radio-name {
+          font-size: 10px !important;
+      }
+
+      .radio-input {
+            height: 8px !important;
+      }
+
+      .usa-button img {
+          width: 70% !important;
+          height: auto !important;
+      }
+
+      .hidden-usa img {
+        width: 70% !important;
+        height: auto !important;
+      }
+
+      .dot-desktop img {
+        width: 70% !important;
+        height: auto !important;
+      }
+
+      .title-section {
+          padding-bottom: 0px !important;
+          height: 100px !important;
+      }
+      
+
+
+      .hidden-usa {
+        display: none;
+        position: absolute;
+        top: 31.6%;
+        left: 21.5%;
+    }
+    
+    .hidden-switcherland {
+        display: none;
+        position: absolute;
+        top:30%;
+        left: 41%
+    }
+    
+    .hidden-italy {
+        display: none;
+        position: absolute;
+        top:35%;
+        left:50.5%
+    }
+    
+    .hidden-uae {
+        display: none;
+        position: absolute;
+        top:48%;
+        left:62.6%;
+    }
+    
+    .hidden-norilsk {
+        display: none;
+        position: absolute;
+        top:23%;
+        left:61.5%
+    }
+    
+    .hidden-russia1 {
+        display: none;
+        position: absolute;
+        top:31%;
+        left:61%
+    }
+    
+    .hidden-russia2 {
+        display: none;
+        position: absolute;
+        top:19%;
+        left:76%
+    }
+    
+    .hidden-russia3 {
+        display: none;
+        position: absolute;
+        top:26%;
+        left:78%
+    }
+    
+    .hidden-china {
+        display: none;
+        position: absolute;
+        top:42%;
+        left:75%
+    }
+    
+    .hidden-korea {
+        display: none;
+        position: absolute;
+        top:32%;
+        left:80%;
+    }
+    
+    .hidden-japan {
+        display: none;
+        position: absolute;
+        top:37%;
+        left:88.6%
+    }
+    
+    .hidden-philippines {
+        display: none;
+        position: absolute;
+        top:54%;
+        left:83.5%;
+    }
+    
+    .hidden-korea img {
+        width: 50px !important;
+        height: auto;
+    }
+
+    .col-mb {
+        border: 2px solid red;
+        width: 20% !important;
+    }
+      
+    .mining-text {
+        font-size: 35px !important;
+    }
+
+    .paragraph {
+        font-size: 14px !important;
+        line-height: 22px !important;
+    }
+
+    .mining-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .frame {
+        display: none;
+    }
+
+    .frame-mb {
+        display: none;
+    }
+
+    .frame-mb-landscape {
+        display: block;
+    }
+
+    .mb-space {
+        padding-bottom: 0px !important;
+        margin-bottom: -150px !important;
+    }
+
+    .margin-space {
+        margin-bottom: 0px !important;
+    }
+
+    .contact-form {
+        margin-bottom: -100px !important;
+    }
+
+    .copyright-mb {
+        font-size: 13px !important;
+    }
+
+    .center-size1 {
+        margin-top: 0px !important;
+    }
+
+    .listing-bg {
+        padding-top: 70px !important;
+        padding-bottom: 5px !important;
+    }
+
+    .phone-mb {
+        margin-bottom: 40px !important;
+        padding: 0px !important;
+        text-align: center;
+        margin: auto;
+        width: 80% !important;
+    }
+
+    .sale-mb-landscape {
+        display: block;
+    }
+
+    .sale-mb {
+        display: none;
+    }
+
+    .column-mb {
+        margin-left: 10px !important;
+    }
+
+    .column1-box {
+        width: 140px;
+    }
+
+    .column2-box {
+        width: 140px;
+    }
+
+    .column3-box {
+        width: 140px;
+    }
+
+    .team-pic img {
+        width: 100%;
+        height: auto;
+    }
 
 }
 

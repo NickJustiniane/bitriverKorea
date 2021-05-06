@@ -46,14 +46,9 @@ var showAllOffices = function () {
     $("#uae").css("display", "block");
     
 
-    if ($(".showoffices").css("display") == "block")
-    {
-        $(".hideoffices").css("display", "none");
-    }
-    else if ($(".showoffices").css("display") == "none") {
-        $(".hideoffices").css("display", "block");
-    }
-
+    $(".hideoffices").css("display", "block");
+    $(".showoffices").css("display", "none");
+    
 }
 
 var hideAllOffices = function () {
