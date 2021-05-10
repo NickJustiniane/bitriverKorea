@@ -466,6 +466,49 @@ function showSlides(n) {
 }
 
 
+var redirectCountry = function () {
+
+    console.log(window.location.href);
+    console.log(window.location);
+
+
+    if (window.location.href.includes("index.html")) {
+
+        window.location = "index.kr.html";
+    } else if (window.location.href.includes("about.html")) {
+
+        window.location = "about.kr.html";
+    } else if (window.location.href.includes("contact.html")) {
+
+        window.location = "contact.kr.html";
+    } 
+    else if (window.location.href.includes("news.html")) {
+
+        window.location = "news.kr.html";
+    } 
+    else if (window.location.href.includes("team.html")) {
+
+        window.location = "team.kr.html";
+    } 
+    else if (window.location.href.includes("newsroom.html")) {
+
+        window.location = "newsroom.kr.html";
+    } 
+    else if (window.location.href.includes("why.html")) {
+
+        window.location = "why.kr.html";
+    } else if (window.location.href === "http://bitriverkorea.com/" || 
+        window.location.href === "http://bitriverkorea.com" || 
+        window.location.href === "https://bitriverkorea.com/" || 
+        window.location.href === "https://bitriverkorea.com") {
+
+        window.location = "http://bitriverkorea.com/index.kr.html";
+    } 
+    
+
+}
+
+
 
 
 
@@ -481,6 +524,8 @@ dotsClickedFunctions();
 toggleIn();
 
 showAllOffices();
+
+redirectCountry();
 
 
 })(window);
