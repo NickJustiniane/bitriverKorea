@@ -1,0 +1,959 @@
+.vc_custom_1528999757087 {
+  background-color: #051329 !important;
+}
+.widget ul li {
+  padding: 2px !important;
+  margin: 0;
+}
+.widget .widget-title {
+  margin-bottom: 8px !important;
+}
+.mpc-ribbon__content {
+  font-family: Arial;
+  color: white;
+  padding-top: 3px;
+  padding-right: 12px;
+  padding-bottom: 3px;
+  padding-left: 12px;
+  background: #122c3f;
+  font-size: 14px;
+}
+#site-header.header-overlay #header-wrapper.header-sticky {
+  background-color: black !important;
+}
+#mobile-site-header, #mobile-site-navigation .mobile-menu-header {
+  background: black !important;
+}
+#div_promoters {
+  text-align: center !important;
+}
+#div_promoters h3 {
+  color: white !important;
+  text-align: center !important;
+  font-size: 13px !important;
+  text-align: center !important;
+  text-transform: uppercase !important;
+}
+.site-info .copyright-separator {
+  border-top: 0px !important;
+}
+
+.intro-background {
+  background-image: url(../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif);
+  background-position-x: 99% !important;
+  background-position-y: 0px !important;
+  background-blend-mode: color-dodge !important;
+  background-size: 1800px !important;
+  background-repeat: no-repeat !important;
+}
+
+.intro-text-header {
+  z-index:9;
+  font-family:Lato; 
+  font-size:10px; 
+  margin-bottom: 90px; 
+  margin-top: -19px
+}
+
+.scrollToTop.scrollactive {
+  bottom: 15px;
+  background-color: black;
+  padding-top: 6px;
+}
+.bitcoin {
+  position: absolute;
+  right: 4%;
+  top: 110px;
+}
+
+.top-21px {
+  top: -21px;
+}
+
+.white-color {
+  color: white !important;
+}
+.light-font {
+  font-weight: 300;
+}
+
+.yellow-color {
+  color: rgb(247, 186, 23);
+}
+
+.font-size-10px {
+   font-size: 10px !important;
+}
+
+.font-size-20px {
+  font-size: 20px !important;
+}
+.font-size-30px {
+  font-size: 30px !important;
+}
+.font-size-40px {
+  font-size: 40px !important;
+}
+.font-size-50px {
+  font-size: 50px !important;
+}
+.font-size-60px {
+  font-size: 60px !important;
+}
+
+.font-size-70px {
+  font-size: 70px !important;
+}
+.font-size-80px {
+  font-size: 80px !important;
+}
+
+.font-weight-400 {
+  font-weight: 400;
+}
+
+.font-weight-500 {
+  font-weight:500;
+}
+.font-weight-bold {
+  font-weight:bold;
+}
+.margin-top-30px {
+  margin-top: 30px;
+}
+.border-right {
+  border-right: 2px solid;
+}
+.list-link {
+  width: 100%;
+  text-align: left;
+}
+.list-link li {
+  display: inline-block;
+}
+.list-link p {
+  color: white;
+  margin-bottom: 8px;
+  margin-right: 35px;
+}
+
+.follow-list {
+  list-style: none;
+  text-align: left;
+}
+.follow-list li {
+  display: inline;
+}
+.text-align-left {
+  text-align: left;
+}
+#mobile-site-navigation .mobile-menu-heading {
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 109px;
+  margin-left: -218px;
+  z-index: 2000;
+  /* top: 20px; */
+  color: white;
+}
+#mobile-site-header .toggle-mobile-menu {
+  position: relative;
+  width: 24px;
+  height: 18px;
+  line-height: 1;
+  float: right;
+  right: 32px;
+  top: 50%;
+  z-index: 999;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  background-color: rgb(247, 186, 23);
+}
+.swipe-out {
+  color: rgb(247, 186, 23);
+  float: left;
+  position: relative;
+  top: 83px !important;
+  font-size: 53px;
+  font-family: "Lato";
+  font-weight: 800;
+}
+
+.scrollToTop {
+  margin-top: 20px;
+}
+
+.intro-message-lifesytle-1 {
+  font-size: 60px !important;
+  line-height: 20px !important;
+  position: relative;
+  top: -40px;
+}
+.intro-message-lifesytle-2 {
+  font-size: 60px !important;
+  position: relative;
+  top: 20px;
+  margin-bottom: 20px !important;
+}
+
+.into-message-oppurtunities {
+  font-size: 100px !important;
+  position: relative;
+  top: 10px !important;
+  margin-bottom: 20px;
+  color: rgb(247, 186, 23);
+}
+
+.about-message {
+  position: relative;
+  top: 120px;
+}
+
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  
+  .tags li {
+    margin-bottom: 60px;
+  }
+
+  .separator {
+    margin-top: 25px;
+  }
+
+  .colortext {
+    margin-top: 600px;
+  }
+  
+  .bitcoin {
+    position: absolute;
+    right: -436px;
+    top: 18px;
+  }
+  img.retina-logo {
+    width: 91%;
+  }
+  #site-logo img.retina-logo {
+    width: 180px;
+    margin-left: 22px;
+  }
+  #site-header.header-overlay #header-wrapper.header-sticky {
+    background-color: black !important;
+  }
+  #mobile-site-header #mobile-site-logo {
+    position: relative;
+    left: 32px;
+    /* top: 30px; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* -webkit-transform: translateY(-50%); */
+    margin: 0;
+    width: 47% !important;
+  }
+  .border-right {
+    border-right: none;
+  }
+  .intro-background {
+    background-image: url(../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif);
+    background-position-x: 80% !important;
+    background-position-y: 0px !important;
+    background-blend-mode: color-dodge !important;
+    background-size: 1800px !important;
+    background-repeat: no-repeat !important;
+}
+  /**************************** Home ****************************/
+
+  .wpb_wrapper {
+    margin-top: 21px;
+  }
+
+.intro-text-header {
+  z-index:9;
+  font-family:Lato; 
+  font-size:10px; 
+  margin-bottom: 90px; 
+  margin-top: 2%;
+}
+  #main .vc_empty_space {
+    max-height: 102px !important;
+  }
+  rs-fullwidth-wrap {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible;
+    max-width: none !important;
+    top: -21px;
+  }
+  .into-message {
+    padding-top: 80px;
+  }
+  .into-message-oppurtunities {
+    font-size: 30px !important;
+    position: relative;
+    top: 10px !important;
+    margin-bottom: 20px;
+    color: rgb(247, 186, 23);
+  }
+  .text-align-left {
+    text-align: center;
+    font-size: 10px;
+  }
+  .vc_col-sm-4.text-align-right {
+    text-align: center;
+    font-size: 12px;
+  }
+  .intro-message-lifesytle-1 {
+    font-size: 29px !important;
+    line-height: 20px !important;
+    position: relative;
+    top: 20px;
+  }
+  .intro-message-lifesytle-2 {
+    font-size: 40px !important;
+    position: relative;
+    top: 34px;
+    margin-bottom: 20px !important;
+  }
+  .lifestyle-description {
+    position: relative;
+    top: 60px !important;
+    padding-top: 30px !important;
+    padding-bottom: 100px !important;
+  }
+  .margin-top-30 {
+    position: absolute;
+    top: 300px !important;
+  }
+}
+
+/********* Iphone X  ********************/
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .intro-text-header {
+      z-index:9;
+      font-family:Lato; 
+      font-size:10px; 
+      margin-bottom: 90px; 
+      margin-top: 2% !important;
+    }
+    .into-message {
+      padding-top: 80px;
+    }
+    .intro-text-message {
+      margin-top: 70px;
+    }
+}
+
+/* Iphone X landscape */
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+  .intro-text-header {
+    z-index:9;
+    font-family:Lato; 
+    font-size:10px; 
+    margin-bottom: 90px; 
+    margin-top: -40% !important;
+  }
+  .intro-text-message {
+    margin-top: -50px;
+  }
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 1024px) {
+
+  .tags li {
+    margin-bottom: 60px;
+  }
+
+  .separator {
+    margin-top: 25px;
+  }
+  
+  .colortext {
+    margin-top: 600px;
+  }
+
+  #site-header {
+    display: none ;
+  }
+
+  .text-align-left {
+    text-align: center;
+    font-size: 10px;
+  }
+  .vc_col-sm-4.text-align-right {
+    text-align: center;
+    font-size: 12px;
+  }
+  img.retina-logo {
+    width: 91%;
+  }
+  #site-logo img.retina-logo {
+    width: 180px;
+    margin-left: 22px;
+  }
+  #site-header.header-overlay #header-wrapper.header-sticky {
+    background-color: black !important;
+  }
+  #mobile-site-header #mobile-site-logo {
+    position: relative;
+    left: 32px;
+    /* top: 30px; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* -webkit-transform: translateY(-50%); */
+    margin: 0;
+    width: 47% !important;
+  }
+
+  .border-right {
+    border-right: none;
+  }
+  .intro-background {
+    background-image: url(../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif);
+    background-position-x: 80% !important;
+    background-position-y: 0px !important;
+    background-blend-mode: color-dodge !important;
+    background-size: 1800px !important;
+    background-repeat: no-repeat !important;
+  }
+  
+  /*********************** Home **********************/
+  .into-message-oppurtunities {
+    font-size: 74% !important;
+    position: relative;
+    top: 10px !important;
+    /* margin-bottom: 20px; */
+    letter-spacing: -3px;
+    color: rgb(247, 186, 23);
+}
+  .intro-message-lifesytle-1 {
+    font-size: 61% !important;
+    line-height: 20px !important;
+    position: relative;
+    top: -30px;
+  }
+  .intro-message-lifesytle-2 {
+    font-size: 61% !important;
+    position: relative;
+    top: 20px;
+    margin-bottom: 20px !important;
+  }
+  .into-message {
+    padding-top: 80px;
+  }
+  .wpb_wrapper {
+    margin-top: 21px;
+  }
+  #main .vc_empty_space {
+    max-height: 102px !important;
+  }
+  rs-fullwidth-wrap {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: visible;
+    max-width: none !important;
+    top: -21px;
+  }
+  .text-align-left {
+    text-align: center;
+    font-size: 10px;
+  }
+  .vc_col-sm-4.text-align-right {
+    text-align: center;
+    font-size: 12px;
+  }
+
+}
+
+/*********************** Other Pages **********************/
+
+.mining-bg {
+  background-color: #f7f7fc !important;
+}
+
+.mining-bg1 {
+  background-color: black !important
+}
+
+.crypto-bg {
+  background-color: #f7f7fc !important;
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.article-bg {
+  padding-bottom: 50px;
+}
+
+.paddingtop1 {
+  padding-top: 20px !important;
+}
+
+.paddingtop2 {
+  padding-top: 2px !important;
+}
+
+.marginbottom1 {
+  margin-bottom: 40px !important;
+}
+
+.marginbottom2 {
+  margin-bottom: 60px !important;
+}
+.intro-background {
+  background-image: url(../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif);
+  background-position-x: 99%;
+  background-position-y: 0px;
+  background-blend-mode: color-dodge;
+  background-size: 1800px;
+  background-repeat: no-repeat;
+}
+
+.caption-title3 {
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top: 70px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.contact-text {
+  color: #373d56;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: left;
+}
+
+#contactsuccess {
+  float: right;
+  width: 100%;
+  display: none;
+}
+
+.contact-form {
+  margin-top: 100px;
+}
+
+.contact-input {
+  border-radius: 0 !important;
+  height: 42px !important;
+  font-size: 14px !important;
+  box-shadow: none !important;
+  line-height: 100% !important;
+  padding: 10px;
+  text-align: left;
+  margin-top: 20px;
+  background-color: #e7f0ff !important;
+}
+
+.contact-btn {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  background-color: #f0ad4e;
+  border-color: #eea236;
+}
+
+span.star {
+  color: red;
+}
+
+.btn-right {
+  text-align: right;
+}
+
+p.form-reminder {
+  text-align: left;
+}
+
+.contact-textarea {
+  border-radius: 0 !important;
+  font-size: 18px !important;
+  box-shadow: none !important;
+  line-height: 100% !important;
+  padding: 10px;
+  text-align: left;
+  margin-top: 20px;
+  background-color: #e7f0ff !important;
+  resize: none;
+}
+
+.form-group .palceholder {
+  position: absolute;
+  top: 35px;
+  left: 22px;
+  color: #b1b1b1;
+  display: none;
+}
+
+h1.blog-details-title {
+  text-align: left;
+  width: 100%;
+  padding-bottom: 33px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.blog-small-details {
+  text-align: left;
+  font-size: 12px;
+  margin-top: -22px;
+  padding-bottom: 20px;
+}
+
+.dotseparator {
+  font-size: 46px;
+  padding-left: 2px;
+  padding-right: 4px;
+  color: #7b7d80;
+}
+
+ul.blogs-socialmedia {
+  width: 74%;
+  margin-top: -55px;
+  margin-left: 36px;
+  margin-bottom: 79px;
+  list-style: none;
+}
+
+.blogs-socialmedia li {
+  float: left;
+  margin-left: 10px;
+  width: 30px;
+}
+
+.separator {
+  height: 10%;
+  background-color: #000;
+  margin-bottom: 41px;
+  margin-top: -28px;
+  width: 100%;
+}
+
+.article img {
+  margin-bottom: 33px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.tagslabel {
+  text-align: left;
+  margin-top: -82px;
+}
+
+.tags li {
+  float: left;
+  background-color: #d6d7d8;
+  border-radius: 20px;
+  margin-left: 9px;
+  padding-left: 10px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.blog__details__tags {
+  margin-bottom: 60px;
+}
+
+.blog__details__tags a {
+  display: inline-block;
+  font-size: 13px;
+  color: #444444;
+  background: #f2f2f2;
+  padding: 10px 16px;
+  margin-right: 6px;
+}
+
+.blog__details__tags a:last-child {
+  margin-right: 0;
+}
+
+.blog-title {
+  text-align: left;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.colortext {
+  font-weight:400; 
+  font-size: 80px; 
+  margin-top: 90px; 
+  color: rgb(247, 186, 23);
+}
+
+.blog-dt {
+  margin-top: 20px;
+}
+
+ul, li {
+  margin: 0px;
+  list-style-type: none;
+}
+
+.marginspace {
+  margin-top: -55px !important;
+}
+
+/* --- Dropdown --- */
+
+.dropbtn {
+  background-color: black !important;
+  color: white !important;
+  padding: 16px !important;
+  font-size: 16px !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+.dropdown {
+  position: relative !important;
+  display: block !important;
+}
+
+.dropdown-content {
+  display: none !important;
+  position: absolute !important;
+  background-color: #f9f9f9 !important;
+  min-width: 160px !important;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2) !important;
+  z-index: 1 !important;
+}
+
+.dropdown-content a {
+  color: black !important;
+  padding: 12px 16px !important;
+  text-decoration: none !important;
+  display: block !important;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1 !important;
+  text-decoration: none !important;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block !important;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: black !important;
+}
+
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+
+  .tags li {
+    margin-bottom: 60px;
+  }
+
+  .separator {
+    margin-top: 25px;
+  }
+
+  .colortext {
+    margin-top: 600px;
+  }
+  .bitcoin {
+    position: absolute;
+    right: -436px;
+    top: 18px;
+  }
+  img.retina-logo {
+    width: 91%;
+  }
+  #site-logo img.retina-logo {
+    width: 180px;
+    margin-left: 22px;
+  }
+  #mobile-site-header #mobile-site-logo {
+    position: relative;
+    left: 32px;
+    /* top: 30px; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* -webkit-transform: translateY(-50%); */
+    margin: 0;
+    width: 47% !important;
+  }
+  #site-header.header-overlay #header-wrapper.header-sticky {
+    background-color: black !important;
+  }
+  .border-right {
+    border-right: none;
+  }
+  .intro-background {
+    background-image: url(../../assets/img/Bitcoin-BG-gif_High\ Res\ 29mb.gif);
+    background-position-x: 80% !important;
+    background-position-y: 65px !important;
+    background-blend-mode: color-dodge !important;
+    background-size: 1165px !important;
+    background-repeat: no-repeat !important;
+}
+  .into-message-oppurtunities {
+    font-size: 30px !important;
+    position: relative;
+    top: 10px !important;
+    margin-bottom: 20px;
+    color: rgb(247, 186, 23);
+    letter-spacing: -1px;
+  }
+  .text-align-left {
+    text-align: center;
+    font-size: 10px;
+  }
+  /******** Home *********/
+
+  .vc_col-sm-4.text-align-right {
+    text-align: center;
+    font-size: 12px;
+  }
+  .into-message {
+    padding-top: 80px;
+    font-size: 20px !important;
+  }
+  .into-message {
+    padding-top: 80px;
+    font-size: 20px !important;
+  }
+  .intro-message-lifesytle-1 {
+    font-size: 65% !important;
+    line-height: 20px !important;
+    position: relative;
+    top: 14px;
+  }
+  .intro-message-lifesytle-2 {
+    font-size: 40px !important;
+    position: relative;
+    top: 18px;
+    margin-bottom: 20px !important;
+  }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .intro-text-header {
+      z-index:9;
+      font-family:Lato; 
+      font-size:6px; 
+      margin-bottom: 90px; 
+      margin-top: 10% !important;
+    }
+    .intro-text-message {
+      margin-top: 120px;
+    }
+}
+
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.separator {
+  width: 94%;
+}
+
+.related-img {
+  width:65%;
+  height: auto;
+}
+
+.margin-tablet {
+  margin-right: 25px;
+}
+
+  header#mobile-site-header {
+      display: block;
+  }
+  #mobile-site-header #mobile-site-logo {
+    position: relative;
+    left: 32px;
+    /* top: 30px; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* -webkit-transform: translateY(-50%); */
+    margin: 0;
+    width: 25% !important;
+  }
+  .text-align-left {
+    text-align: left;
+    font-size: 10px;
+    float: left;
+  }
+}
+
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .separator {
+      width: 99%;
+    }
+
+    .related-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .margin-tablet {
+      margin-right: -8px;
+    }
+
+    header#mobile-site-header {
+      display: block;
+  }
+  #mobile-site-header #mobile-site-logo {
+    position: relative;
+    left: 32px;
+    /* top: 30px; */
+    top: 50%;
+    transform: translateY(-50%);
+    /* -webkit-transform: translateY(-50%); */
+    margin: 0;
+    width: 25% !important;
+  }
+  .text-align-left {
+    text-align: left;
+    font-size: 10px;
+    float: left;
+  }
+  #mobile-site-navigation.mobile-menu-active {
+    -webkit-transform: translate(0%, 0);
+    transform: translate(0%, 0);
+  }
+  #mobile-menu-bg.mobile-menu-active {
+    visibility: visible;
+  }
+}

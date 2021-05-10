@@ -12835,7 +12835,6 @@ label {
 }
 
 
-
 #usa-block {
     display: none;
     opacity:0;
@@ -12858,6 +12857,7 @@ label {
          -moz-transition: opacity .5s-in;
            -o-transition: opacity .5s  ease-in;
   }
+
   #switzerland-block.show {
     display:block;
     opacity:1;
@@ -12876,7 +12876,6 @@ label {
     display:block;
     opacity:1;
   }
-  
 
   
   #philippines-block {
@@ -12893,6 +12892,21 @@ label {
     opacity:1;
   }
   
+
+  #russia-block {
+    display: none;
+    opacity:0;
+    transition:opacity .5s ease-in;
+      -webkit-transition: opacity .5s  ease-in;
+         -moz-transition: opacity .5s-in;
+           -o-transition: opacity .5s  ease-in;
+  }
+
+  #russia-block.show {
+    display:block;
+    opacity:1;
+  }
+
 
 .team-members {
     height: auto;
@@ -12976,6 +12990,11 @@ label {
 /* MOBILE */
 
 @media only screen and (max-width: 600px) {
+
+    .masthead1 {
+        background-image: url("../images/bitriver-mobile.jpg");
+    }
+
     .masthead {
         display: none;
     }
@@ -13310,9 +13329,7 @@ label {
     .btr-title {
         display: none;
     }
-
     
-
 }
 
 /* @media only screen and (max-width: 600px) { */
@@ -13322,15 +13339,9 @@ and (max-width: 850px)
 and (orientation:landscape) 
 {
 
-    /* .masthead {
-        color: #fff;
-        background-image: url("../images/bitriver_introbg.jpg");
-        background-repeat: no-repeat;
-        background-attachment: scroll;
-        background-position: center center;
-        background-size: 100% 100%;
-        position: relative;
-      } */
+    .masthead1 {
+        background-image: url("../images/bitriver-mobile.jpg");
+    }
 
       .masthead { 
         display: block !important;
@@ -13605,6 +13616,125 @@ and (orientation:landscape)
 
 
 
+/* NAVIGATION OVERLAY */
+
+
+
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 85%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+/* 
+.overlay-container {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    height: 100%;
+    width: 0;
+  
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 80%;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.8);
+    
+    padding: 0px !important;
+  }
+  
+  .overlay-content {
+    position: relative;
+    width: 85%;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 30px;
+  }
+  
+  .overlay a {
+    padding: 0px;
+    text-decoration: none;
+    font-size: 26px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  } */
+  
+  /* END OF OVERLAY */
 
 
 

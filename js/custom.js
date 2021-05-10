@@ -393,9 +393,10 @@ var toggleIn = function () {
     var $block = $("#usa-block");
 
     $("#usa-toggle").click(function () {
+
         $block.toggleClass("show");
 
-        console.log($("#team-toggle").css("background-color"));
+        // console.log($("#team-toggle").css("background-color"));
         
     });
 
@@ -405,7 +406,7 @@ var toggleIn = function () {
     $("#switzerland-toggle").click(function () {
         $block1.toggleClass("show");
 
-        console.log($("#team-toggle").css("background-color"));
+        // console.log($("#team-toggle").css("background-color"));
         
     });
 
@@ -416,7 +417,7 @@ var toggleIn = function () {
     $("#italy-toggle").click(function () {
         $block2.toggleClass("show");
 
-        console.log($("#team-toggle").css("background-color"));
+        // console.log($("#team-toggle").css("background-color"));
         
     });
 
@@ -424,10 +425,21 @@ var toggleIn = function () {
 
     var $block3 = $("#philippines-block");
 
-    $("#philippines-toggle").click(function () {
+        $("#philippines-toggle").click(function () {
         $block3.toggleClass("show");
 
-        console.log($("#team-toggle").css("background-color"));
+        // console.log($("#team-toggle").css("background-color"));
+        
+    });
+
+    var $block4 = $("#russia-block");
+
+    console.log("russia");
+
+    $("#russia-toggle").click(function () {
+        $block4.toggleClass("show");
+
+        // console.log($("#team-toggle").css("background-color"));
         
     });
 
@@ -509,6 +521,24 @@ var redirectCountry = function () {
 }
 
 
+var openNav = function () {
+    
+
+    console.log(document.getElementById("myNav").style.width);
+
+     if (document.getElementById("myNav").style.width == "100%")
+        document.getElementById("myNav").style.width = "0%";
+     else if (document.getElementById("myNav").style.width == "0%" || 
+        document.getElementById("myNav").style.width == "")
+     document.getElementById("myNav").style.width = "100%";
+}
+
+
+var closeNav = function () {
+    
+    document.getElementById("myNav").style.width = "0%";
+}
+
 
 
 
@@ -516,6 +546,8 @@ window.showAllOffices = showAllOffices;
 window.hideAllOffices = hideAllOffices;
 window.showDataCenters = showDataCenters;
 window.showOffices = showOffices;
+window.openNav = openNav;
+window.closeNav = closeNav;
 
 
 /* DOCUMENT READY */
@@ -526,6 +558,8 @@ toggleIn();
 showAllOffices();
 
 redirectCountry();
+
+navigationOpen();
 
 
 })(window);

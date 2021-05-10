@@ -29,6 +29,7 @@
  
  <!-- <link rel="stylesheet" href="http://stage.bitriverkorea.com/css/style.css"> -->
  <link rel="stylesheet" href="css/style.css">
+ <!-- <link rel="stylesheet" href="css/swagcss.css"> -->
 
  <style>
    
@@ -118,7 +119,7 @@
     #slide-0 {
       background-image: url('bitriver_introbg.jpg');
       background-repeat: no-repeat;
-      background-position: -200px 0px;
+      background-position: -1150px 0px;
       background-size: cover;
     }
   
@@ -132,7 +133,7 @@
     #slide-2 {
       background-image: url('bitriver_introbg.jpg');
       background-repeat: no-repeat;
-      background-position: -1150px 0px;
+      background-position: -200px 0px;
       background-size: cover;
     }
   
@@ -407,6 +408,62 @@
 <!-- /* HEADER */ -->
 <section class="bg-dark bg-hero text-light overflow-hidden masthead-mobile">
   
+  <div id="myNav" class="overlay">
+
+  <div>
+
+    <ul class="navbar-nav ml-lg-auto pt-2 pt-lg-0 text-center text-lg-left overlay-content">
+            
+      <li class="position-relative" style="text-decoration: underlined !important;">
+        <a class="btn btn-link text-primary font-weight-bold" style="text-decoration: underlined !important;" href="btr-token.kr.html">BTR Token</a>
+      </li>
+
+      <li class="position-relative">
+        <a class="btn btn-link text-white" href="about.kr.html">About</a>
+      </li>
+
+      <li class="position-relative">
+        <a class="btn btn-link text-white" href="why.kr.html">Why Us</a>
+      </li>
+
+      <li class="position-relative">
+        <a class="btn btn-link text-white" href="team.kr.html">Team</a>
+      </li>
+
+      <li class="position-relative">
+        <div class="dropdown">
+          <button class="btn btn-link text-white dropdown-toggle" id="news-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            News
+          </button>
+          <div class="dropdown-menu border-0 bg-dark text-center text-lg-left" aria-labelledby="news-dropdown">
+            <a class="dropdown-item text-white" href="newsroom.kr.html">Newsroom</a>
+            <a class="dropdown-item text-white" href="news.kr.html">In the News</a>
+          </div>
+        </div>
+      </li>
+
+      <li class="position-relative">
+        <a class="btn btn-link text-white" href="contact.kr.html">Contact</a>
+      </li>
+
+      <li>
+        <div class="dropdown">
+          <button class="btn btn-link text-white dropdown-toggle" id="lang-selector" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="lang-selector-icon mr-2"></span> Language
+          </button>
+          <div class="dropdown-menu dropdown-menu-right border-0 bg-dark text-center text-lg-left" aria-labelledby="lang-selector">
+            <a class="dropdown-item text-white" href="http://stage.bitriverkorea.com/">English</a>
+            <a class="dropdown-item text-white" href="http://bitriverkorea.com/index.kr.html">Korean</a>
+            <a class="dropdown-item text-white" href="https://bitriver.farm/ru/">Русский</a>
+          </div>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+    
+  </div>
+  
   <div class="slideshow-container">
 
     <div class="mySlides">
@@ -418,11 +475,13 @@
             <a class="navbar-brand" href="index.kr.html">
               <img src="images/logo.svg" width="143" height="30" alt="BitRiver Logo">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navToggler" aria-controls="navToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-site-navigation" aria-controls="mobile-site-navigation" 
+            aria-expanded="false" aria-label="Toggle navigation" onclick="openNav()">
               <span class="navbar-toggler-icon"><span class="sr-only">Toggle Menu</span></span>
             </button>
-            
-            <div class="collapse navbar-collapse" id="navToggler">
+
+
+          <!-- <div class="collapse navbar-collapse" id="navToggler">
               <ul class="navbar-nav ml-lg-auto pt-2 pt-lg-0 text-center text-lg-left">
                 
                 <li class="position-relative">
@@ -471,7 +530,145 @@
                 </li>
         
               </ul>
+            </div>  -->
+
+            
+            <!-- <nav class="collapse navbar-collapse" id="mobile-site-navigation">
+              <div id="site-logo">
+                <a href="https://www.cloudgenesis.org/">
+                   <img src="assets/img/art/logo.svg" width="200" height="" alt="Swag" class="default-logo" />
+                   <img src="assets/img/art/logo.svg" width="200" height="" alt="Swag" class="retina-logo" />
+                   </a>				
+              </div>	
+              <span class="mobile-menu-header">
+                <span class="mobile-menu-heading">Menu</span>
+                
+              </span>
+              <ul id="menu-eng-mobile" class="menu">
+                <li id="menu-item-1926" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-1609 current_page_item menu-item-1926"><a href="https://www.cloudgenesis.org/" aria-current="page">Home</a><span></span></li>
+                    <li id="menu-item-1927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1927"><a href="./opportunities.html">Opportunities</a><span></span></li>
+                    <li id="menu-item-1928" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1928"><a href="./lifestyle.html">Lifestyle</a><span></span></li>
+                    <li id="menu-item-1929" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1929"><a href="./about.html">About Us</a><span></span></li>
+                  
+                   <li id="menu-item-1935" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1935"><a href="./whatwedo.html">What We Do</a><span></span></li>
+                   <li id="menu-item-1936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1936"><a href="./crypto.html">Crypto</a><span></span></li>
+                   <li id="menu-item-1936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1936"><a href="./blogs.html">Blogs</a><span></span></li>
+                   <li id="menu-item-1936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1936"><a href="./contact.html">Contact</a><span></span></li>
+                   <li id="menu-item-1936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1936"><a href="https://app.cloudgenesis.org/backoffice/login">BACKOFFICE</a><span></span></li>
+                 <li id="menu-item-1936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1936"><a href="https://app.cloudgenesis.org/backoffice/register/user_register">REGISTRATION</a><span></span></li>
+                   
+                </ul>	
+              <div id="mobile-menu-sidebar" class="clearfix">
+                <div id="custom_html-4" class="widget_text widget widget_custom_html">
+                  <div class="widget-title">Get in touch</div>
+                  <div class="textwidget custom-html-widget">support@cloudgenesis.org</div>
+                  <div class="widget-title">Address</div>
+                  <div class="textwidget custom-html-widget">30 Kenilworth, Flat 4, Sir Augustus Bartolo Street Ta Xbiex XBS 1093, Malta</div>
+                    <div class="vc_empty_space">&nbsp;</div>
+                  <div class="textwidget custom-html-widget">Ulitsa Lenina, 56, Perm, Perm Kai, Russia, 614045</div>
+                  
+                </div>	
+                
+              </div>
+            </nav> -->
+
+            <!-- <div id="myNav" class="overlay-container">
+        
+              <div className="overlay">
+                  <div className="overlay-content">
+                      <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>
+                          <img className="arrow-icon" src="/../icons/Arrow_bck-normal.svg"></img>
+                      </a>
+                      <ul class="mobile-nav">
+                          <li>
+  
+                              <img className="language-icon" src="/../icons/EN_icn-normal.svg"></img>
+                              <a href="javascript:void(0)" className="closebtn" onClick={redirectJp}>
+                                  <img className="language-icon" src="/../icons/JP_icn-normal.svg"></img>
+                              </a>
+  
+                          </li>
+                          <li>
+                              <a href="/gaming" className="mobile-link">ゲームの種類</a>
+                          </li>
+                          <li>
+                              <a href="/casinotips" className="mobile-link">攻略法</a>
+                          </li>
+                          <li>
+                              <a href="/news" className="mobile-link">ニューズ</a>
+                          </li>
+                          <li>
+                              <a href="/vip" className="mobile-link">VIP</a>
+                          </li>
+                      </ul>
+  
+  
+                      <div id="follow-bottom">
+                          <p className="follow">Follow us:</p>
+                          <ul className="social-nav">
+                              <li><img className="social-icon" src="/../icons/Facebook_icn.svg"></img></li>
+                              <li><img className="social-icon" src="/../icons/Instagram_icn.svg"></img></li>
+                              <li><img className="social-icon" src="/../icons/Twitter_icn.svg"></img></li>
+                              <li><img className="social-icon" src="/../icons/Pinterest_icn.svg"></img></li>
+                              <li><img className="social-icon" src="/../icons/Youtube_icn.svg"></img></li>
+                          </ul>
+                      </div>
+  
+                  </div>
+              </div>
+  
+          </div> -->
+
+
+        
+
+          <!-- <div id="myNav" class="overlay-container">
+        
+            <div className="overlay">
+                <div className="overlay-content">
+                    <a href="javascript:void(0)" className="closebtn" onClick={closeNav}>
+                        <img className="arrow-icon" src="/../icons/Arrow_bck-normal.svg"></img>
+                    </a>
+                    <ul class="mobile-nav">
+                        <li>
+
+                            <img className="language-icon" src="/../icons/EN_icn-normal.svg"></img>
+                            <a href="javascript:void(0)" className="closebtn" onClick={redirectJp}>
+                                <img className="language-icon" src="/../icons/JP_icn-normal.svg"></img>
+                            </a>
+
+                        </li>
+                        <li>
+                            <a href="/gaming" className="mobile-link">ゲームの種類</a>
+                        </li>
+                        <li>
+                            <a href="/casinotips" className="mobile-link">攻略法</a>
+                        </li>
+                        <li>
+                            <a href="/news" className="mobile-link">ニューズ</a>
+                        </li>
+                        <li>
+                            <a href="/vip" className="mobile-link">VIP</a>
+                        </li>
+                    </ul>
+
+
+                    <div id="follow-bottom">
+                        <p className="follow">Follow us:</p>
+                        <ul className="social-nav">
+                            <li><img className="social-icon" src="/../icons/Facebook_icn.svg"></img></li>
+                            <li><img className="social-icon" src="/../icons/Instagram_icn.svg"></img></li>
+                            <li><img className="social-icon" src="/../icons/Twitter_icn.svg"></img></li>
+                            <li><img className="social-icon" src="/../icons/Pinterest_icn.svg"></img></li>
+                            <li><img className="social-icon" src="/../icons/Youtube_icn.svg"></img></li>
+                        </ul>
+                    </div>
+
+                </div>
             </div>
+
+        </div> -->
+            
             
           </div>
         </nav>
@@ -487,7 +684,7 @@
                최대 호스팅 제공 업체 CIS에서 채굴 
               </h1>
               <p class="header-text mb-subtitle">
-                지도를 탐색하여 가까운 사무실과 데이터 센터를 확인하십시오.
+                지도를 탐색하여 가까운 사무실과 데이터 센터를 확인하십시오
               </p>
     
                 <div class="radio-center">
@@ -523,12 +720,66 @@
 
         <div class="dot-mobile">
 
-        <div class="usa-button" id="usa-mobile-btn">
-          <img src="images/Countries/Group 80.png" alt="" />
+          <div class="norilsk-button" id="norilsk-mb-btn">
+            <img src="images/Countries/Group 69.png" alt="" />
+          </div>
+        
+          <div class="russia1-button" id="russia1-mb-btn">
+            <img src="images/Countries/Group 71.png" alt="" />
+          </div>
+        
+          <div class="russia2-button" id="russia2-mb-btn">
+            <img src="images/Countries/Group 71.png" alt="" />
+          </div>
+        
+          <div class="russia3-button" id="russia3-mb-btn">
+            <img src="images/Countries/Group 69.png" alt="" />
+          </div>
+        
+          <div class="china-button" id="china-mb-btn">
+            <img src="images/Countries/Group 80.png" alt="" />
+          </div>
+        
+          <div class="korea-button" id="korea-mb-btn">
+            <img src="images/Countries/Group 80.png" alt="" />
+          </div>
+        
+          <div class="japan-button" id="japan-mb-btn">
+            <img src="images/Countries/Group 80.png" alt="" />
+          </div>
+        
+          <div class="philippines-button" id="philippines-mb-btn">
+            <img src="images/Countries/Group 80.png" alt="" />
+          </div>
+
+
+
+        <div id="norilsk-mb" class="hidden-norilsk">
+          <img src="images/Countries2/Group 220@2x.png" alt="" />
         </div>
         
-        <div id="usa-mobile" class="hidden-usa">
-          <img src="images/Countries2/Group 217@2x.png" alt="" />
+        <div id="russia1-mb" class="hidden-russia1">
+          <img src="images/Countries2/Group 221@2x.png" alt="" />
+        </div>
+        
+        <div id="russia2-mb" class="hidden-russia2">
+          <img src="images/Countries2/Group 222@2x.png" alt="" />
+        </div>
+      
+        <div id="russia3-mb" class="hidden-russia3">
+          <img src="images/Countries2/Group 223@2x.png" alt="" />
+        </div>
+      
+        <div id="china-mb" class="hidden-china">
+          <img src="images/Countries2/Group 226@2x.png" alt="" />
+        </div>
+      
+        <div id="korea-mb" class="hidden-korea">
+          <img src="images/Countries2/Group 224@2x.png" alt="" />
+        </div>
+        
+        <div id="philippines-mb" class="hidden-philippines">
+          <img src="images/Countries2/Group 228@2x.png" alt="" />
         </div>
   
         </div>
@@ -604,6 +855,51 @@
             
           </div>
         </nav>
+
+        <div class="container pb-7 h-100 text-center text-md-left center">
+          <div class="d-flex h-100 align-items-center">
+            <div class="row w-100" data-aos="fade-up">
+  
+              <div class="col-md-12" style="margin-top: 580px !important;">
+                
+                <h1 class="mb-5 text-white font-weight-bold center1 mb-title" 
+                style="text-align: center; margin-bottom: 15px !important; font-size: 50px;">
+               최대 호스팅 제공 업체 CIS에서 채굴 
+              </h1>
+              <p class="header-text mb-subtitle">
+                지도를 탐색하여 가까운 사무실과 데이터 센터를 확인하십시오
+              </p>
+    
+                <div class="radio-center">
+                  <input type="radio" class="radio-input" name="office-selection" value="Data Center" onclick="return showDataCenters()"> 
+                  <label class="radio-name">데이터 센터</label>
+                  &nbsp;&nbsp;
+                  <input type="radio" class="radio-input" name="office-selection" value="Offices" onclick="return showOffices()">
+                  <label class="radio-name">진력</label>
+    
+                  <br /><br /> 
+                  
+                </div>
+                
+              </div>
+    
+    
+              <div class="col-md-4"></div>
+              
+              <div class="col-md-4">
+                <div class="showoffices" width="100px;" onclick="return showAllOffices()">
+                  모든 사무실 표시
+                </div>
+                <div class="hideoffices" width="100px;" onclick="return hideAllOffices()">
+                  모든 사무실 숨기기
+                </div>
+              </div>
+    
+              <div class="col-md-4"></div>
+              
+            </div>
+          </div>
+        </div>
 
 
         <div class="dot-mobile">
@@ -709,72 +1005,60 @@
           </div>
         </nav>
 
+
+        <div class="container pb-7 h-100 text-center text-md-left center">
+          <div class="d-flex h-100 align-items-center">
+            <div class="row w-100" data-aos="fade-up">
+  
+              <div class="col-md-12" style="margin-top: 580px !important;">
+                
+                <h1 class="mb-5 text-white font-weight-bold center1 mb-title" 
+                style="text-align: center; margin-bottom: 15px !important; font-size: 50px;">
+               최대 호스팅 제공 업체 CIS에서 채굴 
+              </h1>
+              <p class="header-text mb-subtitle">
+                지도를 탐색하여 가까운 사무실과 데이터 센터를 확인하십시오
+              </p>
+    
+                <div class="radio-center">
+                  <input type="radio" class="radio-input" name="office-selection" value="Data Center" onclick="return showDataCenters()"> 
+                  <label class="radio-name">데이터 센터</label>
+                  &nbsp;&nbsp;
+                  <input type="radio" class="radio-input" name="office-selection" value="Offices" onclick="return showOffices()">
+                  <label class="radio-name">진력</label>
+    
+                  <br /><br /> 
+                  
+                </div>
+                
+              </div>
+    
+    
+              <div class="col-md-4"></div>
+              
+              <div class="col-md-4">
+                <div class="showoffices" width="100px;" onclick="return showAllOffices()">
+                  모든 사무실 표시
+                </div>
+                <div class="hideoffices" width="100px;" onclick="return hideAllOffices()">
+                  모든 사무실 숨기기
+                </div>
+              </div>
+    
+              <div class="col-md-4"></div>
+              
+            </div>
+          </div>
+        </div>
+
         <div class="dot-mobile">
           
-          <div class="norilsk-button" id="norilsk-mb-btn">
-            <img src="images/Countries/Group 69.png" alt="" />
-          </div>
-        
-          <div class="russia1-button" id="russia1-mb-btn">
-            <img src="images/Countries/Group 71.png" alt="" />
-          </div>
-        
-          <div class="russia2-button" id="russia2-mb-btn">
-            <img src="images/Countries/Group 71.png" alt="" />
-          </div>
-        
-          <div class="russia3-button" id="russia3-mb-btn">
-            <img src="images/Countries/Group 69.png" alt="" />
-          </div>
-        
-          <div class="china-button" id="china-mb-btn">
-            <img src="images/Countries/Group 80.png" alt="" />
-          </div>
-        
-          <div class="korea-button" id="korea-mb-btn">
-            <img src="images/Countries/Group 80.png" alt="" />
-          </div>
-        
-          <div class="japan-button" id="japan-mb-btn">
-            <img src="images/Countries/Group 80.png" alt="" />
-          </div>
-        
-          <div class="philippines-button" id="philippines-mb-btn">
-            <img src="images/Countries/Group 80.png" alt="" />
-          </div>
-
-
-
-        <div id="norilsk-mb" class="hidden-norilsk">
-          <img src="images/Countries2/Group 220@2x.png" alt="" />
+        <div class="usa-button" id="usa-mobile-btn">
+          <img src="images/Countries/Group 80.png" alt="" />
         </div>
         
-        <div id="russia1-mb" class="hidden-russia1">
-          <img src="images/Countries2/Group 221@2x.png" alt="" />
-        </div>
-        
-        <div id="russia2-mb" class="hidden-russia2">
-          <img src="images/Countries2/Group 222@2x.png" alt="" />
-        </div>
-      
-        <div id="russia3-mb" class="hidden-russia3">
-          <img src="images/Countries2/Group 223@2x.png" alt="" />
-        </div>
-      
-        <div id="china-mb" class="hidden-china">
-          <img src="images/Countries2/Group 226@2x.png" alt="" />
-        </div>
-      
-        <div id="korea-mb" class="hidden-korea">
-          <img src="images/Countries2/Group 224@2x.png" alt="" />
-        </div>
-<!--       
-        <div id="japan-mb" class="hidden-japan">
-          <img src="images/Countries2/Group 225@2x.png" alt="" />
-        </div>
-       -->
-        <div id="philippines-mb" class="hidden-philippines">
-          <img src="images/Countries2/Group 228@2x.png" alt="" />
+        <div id="usa-mobile" class="hidden-usa">
+          <img src="images/Countries2/Group 217@2x.png" alt="" />
         </div>
 
       </div>
