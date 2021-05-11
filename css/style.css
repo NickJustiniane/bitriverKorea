@@ -12010,9 +12010,6 @@ a.fancy-dark:hover {
     margin-top: 25px !important;
 }
 
-.bottomspace {
-    margin-bottom: 0px !important;
-}
 
 .positionfloat {
     position: relative !important;
@@ -12113,7 +12110,7 @@ a.fancy-dark:hover {
   .datamining {
       padding-top: 100px;
       padding-bottom: 80px;
-      height: 1350px;
+      height: 1270px;
       background-color: #161E2C;
       color: white !important;
   }
@@ -12147,7 +12144,7 @@ a.fancy-dark:hover {
   }    
 
   .margin-space {
-      margin-top: 100px !important;
+      margin-top: 80px !important;
   }
 
   .watch {
@@ -12229,7 +12226,7 @@ a.fancy-dark:hover {
     background-image: url('../images/Footer.jpg') !important;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 280px;
+    height: 320px;
   }
 
   .copyright {
@@ -12258,24 +12255,12 @@ a.fancy-dark:hover {
   }
 
   .contact-form {
-      height: 800px;
+      height: 650px;
       background-color: white !important;
       padding-top: 80px;
       padding-bottom: 80px;
   }
-/* 
-  .contact-input {
-    border-radius: 0 !important;
-    height: 42px !important;
-    font-size: 14px !important;
-    box-shadow: none !important;
-    line-height: 100% !important;
-    padding: 10px;
-    text-align: left;
-    margin-top: 20px;
-    background-color: #e7f0ff !important;
-  } */
-
+  
   .contact-input {
       height: 50px !important;
   }
@@ -12558,20 +12543,20 @@ label {
 .summary-bg {
     background-color: #161E2C !important;
     padding-top: 0px !important;
-    padding-bottom: 80px !important;
+    padding-bottom: 60px !important;
 }
 
 .desc-bg {
     background-color: #1680C1 !important;
     padding-top: 0px !important;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom: 0px;
 }
 
 .newtext {
-
     color: white;
     font-size: 50px;
+    margin-top: 50px !important;
 }
 
 .table-bg {
@@ -12602,6 +12587,8 @@ label {
 
 .center-size5 {
     font-size: 50px;
+    margin-top: 50px !important;
+    margin-bottom: 45px !important;
 }
 
 .col-left {
@@ -12630,7 +12617,6 @@ label {
     font-size: 16px;
     color: black;
     text-align: center;
-    /* font-weight: bold; */
 }
 
 .email-box {
@@ -12651,7 +12637,6 @@ label {
     padding-right: 20px;
     background-color: #fff !important;
     margin-top: 20px !important;
-    
 }
 
 .row-space {
@@ -12731,7 +12716,7 @@ label {
 }
 
 .padding-spc {
-    padding-bottom: 60px !important;
+    padding-bottom: 40px !important;
 }
 
 .paragraph-color p {
@@ -12966,6 +12951,83 @@ label {
     padding-top: 40px !important;
 }
 
+.desktop-sp1 {
+    padding-bottom: 50px !important;
+}
+
+.desktop-sp2 {
+   padding-top: 70px !important;
+}
+
+.desktop-sp3 {
+    padding-top: 55px !important;
+    padding-bottom: 0px !important;
+ }
+
+ .desktop-sp4 {
+     padding-top: 50px !important;
+     padding-bottom: 0px !important;
+ }
+
+ .desktop-sp5 {
+    padding-top: 0px !important;
+    padding-bottom: 50px !important;
+}
+
+.desktop-sp6 {
+    padding-bottom: 60px !important;
+}
+
+.desktop-sp7 {
+    padding-top: 50px !important;
+    padding-bottom: 40px !important;
+}
+
+.desktop-sp8 {
+    padding-top: 10px !important;
+    padding-bottom: 60px !important;
+}
+
+.desktop-sp9 {
+    padding-top: 60px !important;
+    padding-bottom: 20px !important;
+    margin-bottom: 0px !important;
+}
+
+.desktop-sp10 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+    margin-bottom: 0px !important;
+}
+
+.desktop-sp11 {
+    padding-top: 35px !important;
+    padding-bottom: 0px !important;
+}
+
+.desktop-sp12 {
+    padding-bottom: 50px !important;
+}
+
+.desktop-sp13 {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+ 
+.desktop-row-sp {
+    padding-bottom: 15px !important;
+}
+
+.desktop-row-sp1 {
+    padding-bottom: 0px !important;
+}
+
+.desktop-row-sp2 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
 .margin-top {
     margin-top: 600px !important;
 }
@@ -12983,13 +13045,26 @@ label {
 }
 
 .topkr {
-    padding-bottom: 200px !important;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+}
+
+.footer-address {
+    font-size: 14px !important;
 }
 
 
 /* MOBILE */
 
 @media only screen and (max-width: 600px) {
+
+    .desktop-row-sp2 {
+        margin-top: -110px !important;
+    }
+
+    .datamining {
+        height: 1230px;
+    }
 
     .masthead1 {
         background-image: url("../images/bitriver-mobile.jpg");
@@ -13238,7 +13313,7 @@ label {
     }
 
     .footer-bg {
-      height: 450px;
+      height: 500px;
     }
 
     .mast-mb {
@@ -13620,7 +13695,7 @@ and (orientation:landscape)
 
 .overlay-container {
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0,0,0, 0.9);
     height: 100%;
     width: 0;
   
