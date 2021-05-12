@@ -535,7 +535,6 @@ var openNav = function () {
 
 
 var closeNav = function () {
-    
     document.getElementById("myNav").style.width = "0%";
 }
 

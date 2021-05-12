@@ -11246,10 +11246,6 @@ button.bg-gray:hover {
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important
 }
 
-.text-justify {
-    text-align: justify !important
-}
-
 .text-wrap {
     white-space: normal !important
 }
@@ -12110,7 +12106,7 @@ a.fancy-dark:hover {
   .datamining {
       padding-top: 100px;
       padding-bottom: 80px;
-      height: 1270px;
+      height: 1250px;
       background-color: #161E2C;
       color: white !important;
   }
@@ -12956,7 +12952,7 @@ label {
 }
 
 .desktop-sp2 {
-   padding-top: 70px !important;
+   padding-top: 55px !important;
 }
 
 .desktop-sp3 {
@@ -12989,14 +12985,14 @@ label {
 }
 
 .desktop-sp9 {
-    padding-top: 60px !important;
+    padding-top: 40px !important;
     padding-bottom: 20px !important;
     margin-bottom: 0px !important;
 }
 
 .desktop-sp10 {
     padding-top: 40px !important;
-    padding-bottom: 40px !important;
+    padding-bottom: 30px !important;
     margin-bottom: 0px !important;
 }
 
@@ -13046,11 +13042,19 @@ label {
 
 .topkr {
     padding-top: 0px !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 0px !important;
 }
 
 .footer-address {
     font-size: 14px !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.btn-active {
+        border-bottom: 2px solid white;
 }
 
 
@@ -13058,12 +13062,20 @@ label {
 
 @media only screen and (max-width: 600px) {
 
+    .btn-active {
+        border: 0px;
+    }
+
     .desktop-row-sp2 {
         margin-top: -110px !important;
     }
 
+    .desktop-sp2 {
+        padding-top: 0px !important;
+    }
+
     .datamining {
-        height: 1230px;
+        height: 1210px;
     }
 
     .masthead1 {
@@ -13280,7 +13292,7 @@ label {
     }
 
     .mb-space {
-        padding-top: 70px !important;
+        padding-top: 50px !important;
     }
 
     img {
@@ -13597,6 +13609,8 @@ and (orientation:landscape)
         line-height: 22px !important;
     }
 
+  
+
     .mining-img {
         width: 100%;
         height: auto;
@@ -13624,6 +13638,7 @@ and (orientation:landscape)
     }
 
     .contact-form {
+        height: 750px !important;
         margin-bottom: -100px !important;
     }
 
