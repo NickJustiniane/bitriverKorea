@@ -556,7 +556,7 @@ toggleIn();
 
 showAllOffices();
 
-redirectCountry();
+// redirectCountry();
 
 navigationOpen();
 
