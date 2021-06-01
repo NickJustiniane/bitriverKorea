@@ -6998,6 +6998,18 @@ button.bg-white:hover {
 }
 
 
+.bg-white-extra {
+    background-color: #fff !important;
+    height: 450px;
+}
+
+a.bg-white-extra:focus,
+a.bg-white-extra:hover,
+button.bg-white-extra:focus,
+button.bg-white-extra:hover {
+    background-color: #fff !important
+}
+
 .bg-darkgreen {
     background-color: #161E2C !important
 }
@@ -12049,6 +12061,19 @@ a.fancy-dark:hover {
 }
 
 
+.para-center {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 110px;
+}
+
+
+.big-quote {
+    font-size: 30px !important;
+}
+
+
 .positionfloat {
     position: relative !important;
     top: 150px !important;
@@ -12143,7 +12168,9 @@ a.fancy-dark:hover {
     width: 100%;
   }
   
-  
+  .text-centered {
+        text-align: center !important;
+  }
 
   .center-text {
       font-size: 25px;
@@ -12165,6 +12192,14 @@ a.fancy-dark:hover {
     padding-top: 100px;
     padding-bottom: 80px;
     height: 1220px;
+    background-color: #161E2C;
+    color: white !important;
+}
+
+.offers {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    height: 600px;
     background-color: #161E2C;
     color: white !important;
 }
@@ -12677,6 +12712,22 @@ label {
     margin-bottom: 45px !important;
 }
 
+
+.bottomspace1 {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+}
+
+.bottomspace2 {
+    padding-bottom: 0px !important;
+}
+
+.privacy-right {
+    float: right;
+    margin-right: 10px;
+}
+
+
 .col-left {
     text-align: left;
     width: 100% !important;
@@ -12691,6 +12742,7 @@ label {
     padding: 0px !important;
     margin: 0px !important;
 }
+
 
 .sale-bg {
     margin: 0px !important;
@@ -13137,6 +13189,14 @@ label {
     display: none;
 }
 
+.desktop-display {
+    display: block;
+}
+
+.phone-display {
+    display: none;
+}
+
 .btr-title-mb {
     display: none;
 }
@@ -13541,8 +13601,29 @@ label {
         width: 80% !important;
     }
 
+    .phone-display {
+        display: block;
+    }
+
+    .desktop-display {
+        display: none;
+    }
+
+    .muted-sp {
+        margin-bottom: 0px !important;
+    }
+
+    .muted-sp1 {
+        margin-bottom: 0px !important;
+    }
+
     .sale-mb {
+        display: block;
         margin-bottom: 10px;
+    }
+
+    .sale-desktop {
+        display: none;
     }
 
     .column-mb {
@@ -13607,7 +13688,6 @@ and (orientation:landscape)
       .masthead { 
         display: block !important;
         background-size: 100% 400px;
-        
       }
       
 
@@ -13636,8 +13716,7 @@ and (orientation:landscape)
       }
 
       .margin-top {
-        margin-top: 520px !important;
-
+        margin-top: 720px !important;
       }
 
       .bg-hero {
